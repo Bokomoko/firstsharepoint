@@ -14,7 +14,7 @@
 		4321
 	],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install -g gulp-cli && npm install -g @microsoft/generator-sharepoint && npm install -g yo && npm install -g @pnp/generator-spfx && npm install -g @pnp/generator-spfx && yo @microsoft/sharepoint --framework none"
+	"postCreateCommand": "npm install -g @microsoft/generator-sharepoint && npm install -g yo && npm install -g @pnp/generator-spfx && npm install -g @pnp/generator-spfx && yo @microsoft/sharepoint --framework none"
 	// Configure tool-specific properties.
 	// "customizations": {},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
