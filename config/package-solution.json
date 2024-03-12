@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "firstsharepoint-client-side-solution",
+    "id": "9fb43ba9-46e1-4a16-ac28-fd34958987bb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "firstsharepoint description"
+      },
+      "longDescription": {
+        "default": "firstsharepoint description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "firstsharepoint Feature",
+        "description": "The feature that activates elements of the firstsharepoint solution.",
+        "id": "ac7a6247-da86-42b3-b583-8af022bb95ca",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/firstsharepoint.sppkg"
+  }
+}

@@ -4,9 +4,7 @@
 	"name": "Node.js & TypeScript",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-18-bullseye",
-	"features": {
-		"ghcr.io/devcontainers-contrib/features/gulp-cli:2": {}
-	},
+	"features": {},
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -14,7 +12,8 @@
 		4321
 	],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install -g @microsoft/generator-sharepoint && npm install -g yo && npm install -g @pnp/generator-spfx && npm install -g @pnp/generator-spfx && yo @microsoft/sharepoint --framework none"
+	// the following commands will install Gulp cli , Yeoman and the SharePoint generator
+	"postCreateCommand": "npm install -g gulp-cli && npm install -g yo && npm install -g @microsoft/generator-sharepoint"
 	// Configure tool-specific properties.
 	// "customizations": {},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
